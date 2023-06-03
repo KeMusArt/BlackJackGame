@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <title>BlackJack</title>
+    </head>
+    <body>
+        <header>
+            <p>21 BlackJack</p>
+        </header>
+        <div id="buttons-div">
+            <button id="new-game-button" class="buttons">New game</button>
+            <button id="pick-card-button" class="buttons">Pick a card</button>
+            <button id="stop-game-button" class="buttons">Gonna try luck</button>
+        </div>
+        <div class="score-div">
+            <p>Player score: <span id="player-score">0</span></p>
+        </div>
+        <div id="player-card-div" class="cards-div">
+        </div>
+        <div class="score-div">
+            <p>PC score: <span id="pc-score">0</span></p>
+        </div>
+        <div id="pc-card-div" class="cards-div">
+            
+        </div>
+        <script src="assets/js/underscore.js"></script>
+        <script src="assets/js/game-min.js"></script>
+    </body>
+</html>
